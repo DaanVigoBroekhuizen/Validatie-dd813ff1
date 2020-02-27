@@ -20,9 +20,9 @@ $email = $_POST['email'];
 
 if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
     echo("$email is een geldig email adres");
-  } else {
+  }else{
     echo("$email is niet een geldig email adres");
-  }
+}
 ?>
 </body>
 </html>
